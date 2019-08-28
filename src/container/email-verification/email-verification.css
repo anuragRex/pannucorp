@@ -1,0 +1,88 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1360px;
+  }
+}
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1560px;
+  }
+}
+
+.top-part {
+  position: relative;
+  width: 100%;
+  float: left;
+  background: #ffffff;
+}
+.top-head {
+  position: relative;
+}
+.form-part h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 32px;
+  line-height: 64px;
+  color: #000000;
+  font-weight: 600;
+}
+.form-part h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  color: #a8a8a8;
+  width: 90%;
+  font-weight: 300;
+}
+.time-p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  position: relative;
+  right: 10px;
+  color: #a8a8a8;
+  text-align: right;
+  float: right;
+}
+.resend-code {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  float: right;
+  text-align: right;
+  color: #0084f4;
+  position: relative;
+  top: 36px;
+}
+.btn-submit {
+  background: #0086ff;
+  border-radius: 5px;
+  width: 195px;
+  height: 55px;
+  position: relative;
+  top: 50px;
+}
+.form-part {
+  position: relative;
+  top: 160px;
+}
+.form-st {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  background: #ffffff;
+  border: 1px solid rgba(121, 146, 177, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 60px;
+}
+.email-images {
+  float: left;
+  position: relative;
+  top: 85px;
+}
+.email-images img {
+  width: 100%;
+  max-width: 844px;
+}

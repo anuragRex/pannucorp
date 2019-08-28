@@ -1,0 +1,738 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.icon-part span svg {
+  color: #d5d5d5;
+  -webkit-text-fill-color: #d5d5d5;
+  cursor: pointer;
+}
+.left-part.new-section {
+  position: relative;
+  padding-right: 35px;
+  border-right: 1px solid #d5d5d5;
+}
+.form-group {
+  width: 100%;
+  float: left;
+  position: relative;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  padding: 0px 10px;
+  min-height: 60px;
+  margin-bottom: 30px;
+}
+.form-group .label {
+  font-size: 13px;
+  color: #adadad;
+  position: relative;
+  top: 4px;
+  padding-left: 5px;
+}
+.form-group .form-control.first-name-t {
+  padding-left: 45px;
+}
+.form-group .form-control.gender-div {
+  position: absolute;
+  width: 43px;
+  font-size: 14px;
+  padding: 0;
+  color: #d5d5d5;
+  background-color: white;
+  left: 12px;
+}
+.form-group .form-control {
+  border: 0;
+  width: 100%;
+  float: left;
+  font-size: 13px;
+  color: #d5d5d5;
+  padding: 0 5px;
+}
+.form-group select.form-control {
+}
+.form-group select.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.form-group .form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+.form-group .error-divs,
+.form-group .error-div {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  color: #dd0000;
+  font-size: 10px;
+}
+.form-group select.form-control {
+  padding: 0;
+}
+.top-part {
+  position: relative;
+  width: 100%;
+  float: left;
+  background: #ffffff;
+}
+.top-head {
+  position: relative;
+}
+.form-group.rb {
+  width: 100%;
+  float: left;
+}
+
+/*Sign-up*/
+
+.bottom-content {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+select.form-control option {
+  min-height: 60px;
+  line-height: 60px;
+  height: 60px;
+  padding: 10px 5px;
+}
+
+/*Sign-up*/
+.sign-images {
+  float: left;
+  position: relative;
+  top: 162px;
+}
+.sign-images img {
+  width: 100%;
+  max-width: 531px;
+}
+.sign-up h2 {
+  font-size: 32px;
+  line-height: 64px;
+  color: #000000;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.sign-up h3 {
+  font-size: 14px;
+  color: #5a585d;
+  font-weight: 300;
+  line-height: 22px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.sign-up {
+  position: relative;
+  top: 112px;
+  float: left;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.sign-input {
+  background: #ffffff00;
+  border: 1px solid rgba(121, 146, 177, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 60px;
+  font-size: 13px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #a8a8a8;
+}
+.sign-inputsecond {
+  max-width: 58%;
+  float: left;
+  width: 100%;
+  margin-right: 40px;
+  position: relative;
+  padding-left: 60px;
+}
+.left-part {
+  width: 60%;
+  float: left;
+}
+.form-parts {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+.drop-div {
+  background: #ffffff;
+  border: 1px solid rgba(121, 146, 177, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #a8a8a8;
+
+  height: 60px;
+}
+.drop-sapreat {
+  width: 32%;
+  float: left;
+}
+.btns {
+  position: relative;
+  top: 9px;
+  color: #a8a8a8;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #a8a8a8;
+}
+.dropdown-toggle::after {
+  position: absolute;
+  right: 12px;
+  top: 15px;
+}
+.dop {
+  width: 46%;
+  float: left;
+  margin-right: 25px;
+}
+.gender {
+  width: 46%;
+  float: left;
+}
+.form-text {
+  font-size: 16px;
+  color: #b8b8b8;
+  font-family: 'Source Sans Pro', sans-serif;
+  float: left;
+  margin: 0px 0px 10px 0px;
+}
+.right-part {
+  float: left;
+  width: 35%;
+  margin-left: 35px;
+  margin-top: 0px;
+}
+
+.bottom-text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #c1c1c1;
+  width: 80%;
+  float: left;
+  margin-right: 55px;
+  font-weight: 300;
+}
+.m-bottom {
+  margin-bottom: 0px;
+}
+.border-style {
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 53px;
+  height: 34px;
+  float: right;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.btn-submits {
+  background: #0086ff;
+  border-radius: 5px;
+  width: 239px;
+  height: 55px;
+  position: relative;
+  top: 20px;
+}
+.sign-in {
+  font-size: 18px;
+  line-height: 22px;
+  color: #c1c1c1;
+  float: right;
+  font-weight: 300;
+  position: relative;
+  top: -14px;
+}
+.blue-color {
+  color: #0086ff;
+  cursor: pointer;
+}
+.label-part {
+  font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: absolute;
+  color: #a8a8a8;
+  padding-left: 16px;
+  padding-top: 3px;
+  z-index: 1;
+}
+.form-group.mr-bottom {
+  position: relative;
+}
+.icon-part {
+  position: absolute;
+  right: 17px;
+  top: 14px;
+}
+.icon-parts {
+  position: absolute;
+  right: 17px;
+  top: 14px;
+}
+.label-parts {
+  position: absolute;
+  left: 16px;
+  top: 64px;
+  font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #a8a8a8;
+}
+.pass-text {
+  font-size: 14px;
+  color: #b8b8b8;
+  margin-top: 10px;
+}
+input.form-control::placeholder {
+  font-size: 14px;
+  color: #d0d0d0;
+}
+
+.pos-part {
+  position: relative;
+}
+.full-drop {
+  position: absolute;
+  border: none;
+  left: 8px;
+  height: 5%;
+  top: 28px;
+  z-index: 1;
+}
+.padding-input {
+  padding-top: 20px;
+}
+.p-label {
+  padding-top: 9px;
+}
+.full-drop select.form-control {
+  height: auto;
+}
+.p-labels {
+  padding-top: 4px;
+}
+.error-div {
+  position: relative;
+}
+.error-div span {
+  color: red;
+  font-size: 13px;
+  font-weight: 300;
+}
+.error-divs {
+  position: relative;
+  width: unset;
+  padding-bottom: 8px;
+}
+.error-divs span {
+  color: red;
+  font-size: 13px;
+  font-weight: 300;
+  position: absolute;
+  left: 0;
+  top: 59px;
+  padding: 4px 0px;
+}
+.errors-div {
+  position: relative;
+  float: left;
+  width: 200px;
+  margin-bottom: 15px;
+}
+.errors-div span {
+  color: red;
+  font-size: 13px;
+  font-weight: 300;
+  position: absolute;
+  left: 0;
+  top: 19px;
+}
+.gender-div {
+  position: relative;
+  left: 8px;
+  width: 92%;
+}
+.pos-re {
+  position: relative;
+}
+.errors-divs {
+  position: relative;
+}
+.errors-divs span {
+  color: red;
+  font-size: 13px;
+  font-weight: 300;
+  position: absolute;
+  left: 0;
+  top: 119px;
+  padding: 4px 0px;
+}
+.mr-top {
+  margin-top: -4px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .bottom-content {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-right: 65px;
+  }
+  .bottom-content .switch {
+    position: absolute;
+    right: 0;
+  }
+  .form-part h2 {
+    font-size: 24px;
+  }
+  .form-part h3 {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .email-images {
+    top: 0px;
+  }
+  .form-part {
+    top: 0px;
+  }
+  .left-part {
+    width: 100%;
+  }
+  .left-part.new-section {
+    position: relative;
+    padding-right: 0px;
+    border-right: 0px solid #d5d5d5;
+  }
+  .sign-inputsecond {
+    max-width: none;
+  }
+  .drop-sapreat {
+    width: 100%;
+    margin-top: 19px;
+  }
+  .dop {
+    width: 100%;
+  }
+  .gender {
+    width: 100%;
+    margin-top: 19px;
+  }
+  .border-style {
+    padding-right: 0px;
+    border-right: none;
+  }
+  .right-part {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .bottom-text {
+    width: 100%;
+  }
+  .sign-images {
+    top: 0px;
+  }
+  .sign-up {
+    top: 0px;
+  }
+  .sign-in {
+    top: 36px;
+    float: left;
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  .form-text {
+    font-size: 16px;
+  }
+  .label-parts {
+    top: 134px;
+  }
+  select.form-control {
+    min-height: 0px;
+  }
+  .full-drop {
+    top: 8px;
+    left: 0px;
+  }
+  .full-drop select.form-control {
+    height: 0px;
+    background: none;
+  }
+  .m-tp {
+    margin-top: 20px;
+  }
+  .errors-divs span {
+    top: 107px;
+  }
+}
+@media (min-width: 481px) and (max-width: 575px) {
+  .bottom-content {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-right: 65px;
+  }
+  .bottom-content .switch {
+    position: absolute;
+    right: 0;
+  }
+  .form-part h2 {
+    font-size: 24px;
+  }
+  .email-images {
+    top: 0px;
+  }
+  .form-part {
+    top: 0px;
+  }
+  .left-part {
+    width: 100%;
+  }
+  .right-part {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .border-style {
+    padding-right: 0px;
+    border-right: none;
+  }
+  .left-part.new-section {
+    position: relative;
+    padding-right: 0px;
+    border-right: 0px solid #d5d5d5;
+  }
+
+  .sign-images {
+    top: 0px;
+  }
+  .sign-up {
+    top: 0px;
+  }
+  .dop {
+    margin-right: 36px;
+  }
+  .sign-in {
+    top: 36px;
+    float: left;
+  }
+  .form-text {
+    font-size: 16px;
+  }
+  select.form-control {
+    min-height: 0px;
+  }
+  .full-drop {
+    top: 8px;
+    left: 0px;
+  }
+  .full-drop select.form-control {
+    height: 0px;
+    background: none;
+  }
+  .drop-sapreat {
+    position: relative;
+    top: -28px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .form-part h2 {
+    font-size: 21px;
+    line-height: 40px;
+  }
+  .form-part h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .sign-images {
+    top: 0px;
+  }
+  .sign-up {
+    top: 0px;
+  }
+  .left-part {
+    width: 100%;
+  }
+  .left-part.new-section {
+    position: relative;
+    padding-right: 0px;
+    border-right: 0px solid #d5d5d5;
+  }
+  .right-part {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .border-style {
+    padding-right: 0px;
+    border-right: none;
+  }
+  .drop-sapreat {
+    width: 171.5px;
+  }
+  .dop {
+    width: 49%;
+  }
+  .bottom-text {
+    margin-right: 30px;
+  }
+  .sign-in {
+    top: 36px;
+    float: left;
+  }
+  .form-part {
+    position: relative;
+    top: 71px;
+  }
+  .full-drop {
+    top: 20px;
+    left: 0px;
+  }
+  .full-drop select.form-control {
+    height: auto;
+    background: none;
+  }
+  .drop-sapreat {
+    position: relative;
+    top: -27px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .form-part h2 {
+    font-size: 23px;
+    line-height: 36px;
+  }
+  .sign-images {
+    top: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .form-part h3 {
+    line-height: 27px;
+  }
+  .sign-images {
+    top: 0px;
+  }
+  .sign-up {
+    top: 0px;
+  }
+  .sign-inputsecond {
+    max-width: 55%;
+  }
+  .left-part {
+    width: 59%;
+  }
+  .bottom-text {
+    margin-top: 10px;
+  }
+  .full-drop {
+    top: 8px;
+    left: 0px;
+  }
+  .full-drop select.form-control {
+    height: auto;
+    background: none;
+  }
+  .drop-sapreat {
+    position: relative;
+    top: -28px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .left-part {
+    width: 59%;
+  }
+  .sign-inputsecond {
+    max-width: 55%;
+  }
+  .bottom-text {
+    margin-top: 10px;
+  }
+
+  .full-drop {
+    top: 8px;
+    left: 0px;
+  }
+  .full-drop select.form-control {
+    height: auto;
+    background: none;
+  }
+  .drop-sapreat {
+    position: relative;
+    top: -28px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1900px) {
+  .full-drop select.form-control {
+    height: auto;
+    background: none;
+  }
+  .full-drop {
+    left: -3px;
+    top: 20px;
+  }
+  .drop-sapreat {
+    position: relative;
+    top: -24px;
+  }
+}
+@media (min-width: 1901px) and (max-width: 2000px) {
+  .drop-sapreat {
+    position: relative;
+    top: -28px;
+  }
+}
